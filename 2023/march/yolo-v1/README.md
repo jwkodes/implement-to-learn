@@ -8,7 +8,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-Trained and tested YOLO v1 on MS COCO dataset. Dataset was downloaded here https://www.kaggle.com/datasets/734b7bcb7ef13a045cbdd007a3c19874c2586ed0b02b4afc86126e89d00af8d2, and placed in **data** folder.
+Trained and tested YOLO v1 on MS COCO dataset. Dataset was downloaded here https://www.kaggle.com/datasets/734b7bcb7ef13a045cbdd007a3c19874c2586ed0b02b4afc86126e89d00af8d2, and placed in **data** folder (structure shown below).
 
 ```
 yolo-v1
@@ -18,6 +18,9 @@ yolo-v1
     ├── train.csv          # csv that contains paths of train images and labels
     ├── test.csv           # csv that contains paths of test images and labels
 ```
+
+### Augmentation
+Augmentations were done with Albumentations https://github.com/albumentations-team/albumentations.
 
 ## Train
 To train:
